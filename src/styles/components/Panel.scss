@@ -1,0 +1,66 @@
+.mini-card {
+  padding: 12px;
+  background-color: $color-white;
+  border: 1px solid $border-color;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left,
+.right {
+  font-family: "Muli", Arial, Helvetica, sans-serif;
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 50%;
+  position: relative;
+}
+
+.right {
+  text-align: right;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+}
+
+.row-label {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.row-label p {
+  font-weight: 600;
+  margin: 0;
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: $color-black;
+  text-transform: uppercase;
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: $pill-color;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.row-total {
+  border-top: 1px solid $border-color;
+  padding: 10px 0;
+}
+
+.total {
+  width: 100%;
+  text-align: center;
+}
+
+.total p {
+  display: inline-block;
+  font-size: 1.2rem;
+}
